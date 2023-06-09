@@ -1,0 +1,263 @@
+
+#content {
+    display: inline-block;
+    background-color: white;
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+#content_verdade {
+    padding: 4rem 1.8rem 1.8rem 1.5rem;
+    font-weight: 200;
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    border-top: 2px solid black;
+    display: inline-flex;
+}
+
+
+#texto {
+    padding-right: 2rem;
+    width: 48%;
+    line-height: 1.6rem;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#testemunho {
+    padding: 2rem;
+    width: 45%;
+    display: inline-flex;
+    margin-bottom: 2rem;
+    border-radius: 2rem 0 2rem 0;
+    background-color: var(--color-coffe);
+}
+
+#testemunhotitle {
+    display: inline-flex;
+    border: 2px solid rgba(128, 128, 128, 0.691);
+    border-radius: 1rem 0 1rem 0;
+    width: 100%;
+    background-color: var(--color-coffe);
+}
+
+#testemunhotitle > h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    color: #e36414;
+}
+
+#imagejesus > picture > img, source {
+    width: 150px;
+    height: 150px;
+    margin-top: -4rem;
+}
+
+#text-testemunho > h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#text-testemunho > p {
+    padding-top: .6rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#genesis_adao > a {
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+}
+
+#genesis_adao > a:hover {
+  text-decoration: underline;
+  transition: .3s;
+}
+
+#content_quemsoueu {
+    border-top: 2px solid black;
+    display: inline-flex;
+    border-radius: 0px 0px 1rem 1rem;
+    width: 100%;
+}
+
+#pontos {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+}
+
+#pontos > h2 {
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    font-size: 1,8rem;
+    font-family: 'chantelli';
+    font-weight: bold;
+    font-size:auto;
+    color: white;
+}
+
+#pontos > ul > li::before {
+    content: '| ';
+} 
+
+#pontos > ul > li::after {
+    content: ' |';
+} 
+
+#pontos > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'chantelli';
+    font-size: .9rem;
+}
+#pontos > ul > li > a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+    background-color: var(--color-tuatara);
+    padding: .2rem;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+#pontos > ul > li {
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+}
+
+#pontos > ul {
+    margin-top: 1rem;
+    font-size:.9rem;
+    padding-left: 1rem;
+    line-height: 3rem;
+}
+
+#video {
+    background-color: black;
+    width: 50%;
+    padding: 1rem;
+}
+
+#video > h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: max-content;
+  margin: auto;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+aside {
+    background-color: black;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+aside > a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+aside > a:hover {
+    text-decoration: underline;
+    transition: .3s;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: var(--color-tuatara);
+    color: var(--color-azul);
+    margin-top: -2rem;
+    padding: 3.5rem 0 1rem 0;
+    text-align: center;
+}
+
+footer > h4 {
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+footer > h4 > strong:hover {
+    color: white;
+    transition: .2s;
+    text-decoration:underline
+}
+
+@media (max-width: 950px) {
+
+    #content {
+        display: inline-block;
+    }
+
+    #content_verdade {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        display: inline-block;
+    }
+
+    #content_quemsoueu {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    #texto {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    #testemunho {
+        display: inline-block;
+        width: 85%;
+        margin: auto;
+    }
+
+    #pontos {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #video {
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+    }
+    
+    #video > h3 {
+      color: white;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 1rem;
+
+    }
+    
+    
+    iframe {
+        display: block; 
+        margin: auto;
+        width: 90%;
+        border-radius: 1rem;
+    }
+    
+}
