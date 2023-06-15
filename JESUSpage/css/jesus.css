@@ -1,24 +1,34 @@
 
 
 #abajesus {
-    background-color: var(--color-coffe);
-    margin: 0 2rem 0 2rem;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #soujesus {
-    display: block;
-    margin: auto;
-    border: 2px solid black;
+    width: 60%;
 }
 
 #apresentacaojesus {
     padding: 2rem 1rem 2rem 1rem;
     display: inline-flex;
-    border: 2px solid red;
     width: 94.8%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: 3px outset #ffcd55;
+    border-radius: 1rem 0 1rem 0;
+}
+
+#falajesus {
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 #falajesus > p {
     margin-left: 1rem;
     text-align: justify;
+    width: 80%;
 }
