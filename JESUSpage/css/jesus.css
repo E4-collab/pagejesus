@@ -1,5 +1,6 @@
-
-
+* { 
+    box-sizing: border-box;
+}
 #abajesus {
     background-color: white;
     width: 90%;
