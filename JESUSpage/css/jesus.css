@@ -3,7 +3,6 @@
 }
 
 #abajesus {
-    background-color: white;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -14,23 +13,44 @@
     width: 60%;
 }
 
-#apresentacaojesus {
+.apresentacaojesus {
     padding: 2rem 1rem 2rem 1rem;
     display: inline-flex;
     width: 94.8%;
     margin-top: 2rem;
     margin-left: 1rem;
-    border: 3px outset #ffcd55;
+    border: 3px outset #fff;
     border-radius: 1rem 0 1rem 0;
+    background-color: hsla(0, 0%, 50%, 0.30);
 }
 
-#falajesus {
+.falajesus {
     margin-top: 1rem;
     margin-left: 1rem;
+    color: #fff;
 }
 
-#falajesus > p {
+.falajesus > h1 {
+    font-weight: normal;
+}
+
+.falajesus > p {
+    font-weight: normal;
+    margin-top: .6rem;
     margin-left: 1rem;
     text-align: justify;
-    width: 80%;
+    width: 90%;
+    line-height: 3.5vh;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#propositojesus {
+    width: 60%;
+    margin-left: 40%;
+    border-radius: 0 1rem 0 1rem;
+}
+
+#propositojesus > .falajesus > strong {
+    font-size: 1.4rem;
 }
