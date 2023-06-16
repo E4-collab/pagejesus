@@ -54,3 +54,27 @@
 #propositojesus > .falajesus > strong {
     font-size: 1.4rem;
 }
+
+@media (max-width: 600px) {
+    #soujesus, #propositojesus {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .apresentacaojesus {
+        display: block;
+    }
+
+    .apresentacaojesus > picture > img {
+        margin: auto;
+        display: block;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+
+    #propositojesus > .falajesus > p {
+        margin-bottom: 2rem;
+    }
+
+}
