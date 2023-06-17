@@ -9,8 +9,10 @@
     display: block;
 }
 
-#soujesus {
-    width: 60%;
+#soujesus, #proposito {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .apresentacaojesus {
@@ -24,6 +26,18 @@
     background-color: hsla(0, 0%, 50%, 0.30);
 }
 
+a, abbr {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #fbe762;
+}
 .falajesus {
     margin-top: 1rem;
     margin-left: 1rem;
@@ -45,18 +59,18 @@
     font-size: 1.2rem;
 }
 
-#propositojesus {
-    width: 60%;
-    margin-left: 40%;
-    border-radius: 0 1rem 0 1rem;
-}
-
 #propositojesus > .falajesus > strong {
     font-size: 1.4rem;
 }
 
+picture {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media (max-width: 600px) {
-    #soujesus, #propositojesus {
+
+    #soujesus, #proposito {
         width: 100%;
         margin: auto;
         margin-bottom: 3rem;
